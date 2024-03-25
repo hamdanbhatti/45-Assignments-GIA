@@ -107,8 +107,47 @@
 
 /* =======>>>>>> Assignment 12 <<<<<======== */
 /* Greetings */
+
 // let message: string = "Would You like to go for a trip.\n";
 // let myFriends: string[] = ["Ali", "Abdul", "Raheem", "Omair"];
 // for (let friend of myFriends) {
 //   console.log(`${friend}, ${message}`);
 // }
+
+/* =======>>>>>> Assignment 13 <<<<<======== */
+/* Your Own Array */
+
+// let modeOFTransport: string[] = ["Bike", "Car", "Bus", "Train"];
+// for (let transport of modeOFTransport) {
+//   console.log(`I would like to own a ${transport}`);
+// }
+
+/* =======>>>>>> Assignment 14 <<<<<======== */
+/* Guest List */
+
+// let guests: string[] = ["Ali", "Abdul", "Raheem"];
+// for (let guestName of guests) {
+//   console.log(`${guestName}, Please come to dinner.`);
+// }
+
+/* =======>>>>>> Assignment 15 <<<<<======== */
+/* Changing Guest List: */
+
+let guests: string[] = ["Ali", "Abdul", "Raheem", "Omair", "Rehman"];
+
+// Previous Question We have invited the Guests
+guests.forEach((guest) => {
+  console.log(`Dear ${guest}, you are invited to dinner.`);
+});
+
+// Guest who can't make it
+let cantMakeit = guests.pop();
+console.log(`\nSorry The Guest " ${cantMakeit} " unable to reached\n`);
+// New guest invitation
+const newGuest = "Noor";
+guests.push(newGuest);
+
+// Print updated invitation message for each guest
+guests.forEach((guest) => {
+  console.log(`Dear ${guest}, you are invited to dinner.`);
+});
