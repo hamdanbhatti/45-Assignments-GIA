@@ -106,3 +106,9 @@
 // }
 
 /* =======>>>>>> Assignment 12 <<<<<======== */
+/* Greetings */
+// let message: string = "Would You like to go for a trip.\n";
+// let myFriends: string[] = ["Ali", "Abdul", "Raheem", "Omair"];
+// for (let friend of myFriends) {
+//   console.log(`${friend}, ${message}`);
+// }
