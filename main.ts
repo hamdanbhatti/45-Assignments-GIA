@@ -133,21 +133,23 @@
 /* =======>>>>>> Assignment 15 <<<<<======== */
 /* Changing Guest List: */
 
-let guests: string[] = ["Ali", "Abdul", "Raheem", "Omair", "Rehman"];
+// let guests: string[] = ["Ali", "Abdul", "Raheem", "Omair", "Rehman"];
 
-// Previous Question We have invited the Guests
-guests.forEach((guest) => {
-  console.log(`Dear ${guest}, you are invited to dinner.`);
-});
+// // Previous Question We have invited the Guests
+// guests.forEach((guest) => {
+//   console.log(`Dear ${guest}, you are invited to dinner.`);
+// });
 
-// Guest who can't make it
-let cantMakeit = guests.pop();
-console.log(`\nSorry The Guest " ${cantMakeit} " unable to reached\n`);
-// New guest invitation
-const newGuest = "Noor";
-guests.push(newGuest);
+// // Guest who can't make it
+// let cantMakeit = guests.pop();
+// console.log(`\nSorry The Guest " ${cantMakeit} " unable to reached\n`);
+// // New guest invitation
+// const newGuest = "Noor";
+// guests.push(newGuest);
 
-// Print updated invitation message for each guest
-guests.forEach((guest) => {
-  console.log(`Dear ${guest}, you are invited to dinner.`);
-});
+// // Print updated invitation message for each guest
+// guests.forEach((guest) => {
+//   console.log(`Dear ${guest}, you are invited to dinner.`);
+// });
+
+/* =======>>>>>> Assignment 16 <<<<<======== */

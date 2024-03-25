@@ -1,4 +1,5 @@
 /* =======>>>>>> Assignment 1 <<<<<======== */
+export {};
 /* Install [Node.js](https://nodejs.org/en/),
 [TypeScript](https://www.typescriptlang.org/download) and
 [VS Code](https://code.visualstudio.com/) on your computer. */
@@ -99,19 +100,19 @@
 // }
 /* =======>>>>>> Assignment 15 <<<<<======== */
 /* Changing Guest List: */
-let guests = ["Ali", "Abdul", "Raheem", "Omair", "Rehman"];
-// Previous Question We have invited the Guests
-guests.forEach((guest) => {
-    console.log(`Dear ${guest}, you are invited to dinner.`);
-});
-// Guest who can't make it
-let cantMakeit = guests.pop();
-console.log(`\nSorry The Guest " ${cantMakeit} " unable to reached\n`);
-// New guest invitation
-const newGuest = "Noor";
-guests.push(newGuest);
-// Print updated invitation message for each guest
-guests.forEach((guest) => {
-    console.log(`Dear ${guest}, you are invited to dinner.`);
-});
-export {};
+// let guests: string[] = ["Ali", "Abdul", "Raheem", "Omair", "Rehman"];
+// // Previous Question We have invited the Guests
+// guests.forEach((guest) => {
+//   console.log(`Dear ${guest}, you are invited to dinner.`);
+// });
+// // Guest who can't make it
+// let cantMakeit = guests.pop();
+// console.log(`\nSorry The Guest " ${cantMakeit} " unable to reached\n`);
+// // New guest invitation
+// const newGuest = "Noor";
+// guests.push(newGuest);
+// // Print updated invitation message for each guest
+// guests.forEach((guest) => {
+//   console.log(`Dear ${guest}, you are invited to dinner.`);
+// });
+/* =======>>>>>> Assignment 16 <<<<<======== */
