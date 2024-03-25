@@ -116,3 +116,75 @@ export {};
 //   console.log(`Dear ${guest}, you are invited to dinner.`);
 // });
 /* =======>>>>>> Assignment 16 <<<<<======== */
+/*More Guests */
+// Starting from Ex 15 We Have a Guest list
+// let guests: string[] = ["Ali", "Abdul", "Raheem", "Omair", "Noor"];
+// for (let guest of guests) {
+//   console.log(`Hey ${guest} ! We have found a Bigger Dinner Table`);
+// }
+// // Adding One New Guest to the beginning of Array
+// guests.unshift("Mehar");
+// // Adding one new guest to the middle of the array
+// guests.splice(Math.floor(6 / 2), 0, "Akram");
+// // Adding New Guest at the End of the List
+// guests.push("Fazal");
+// // Print updated invitation message for each guest
+// guests.forEach((guest) => {
+//   console.log(`Dear ${guest}, you are invited to dinner.`);
+// });
+// console.log(guests);
+/* =======>>>>>> Assignment 17 <<<<<======== */
+/* Shrinking Guest List */
+// So from Ex 16 We have a Updated Guest List
+// let guests: string[] = [
+//   "Mehar",
+//   "Ali",
+//   "Abdul",
+//   "Akram",
+//   "Raheem",
+//   "Omair",
+//   "Noor",
+//   "Fazal",
+// ];
+// console.log(
+//   "You can invite only two people for dinner because table have only two people space."
+// );
+// while (guests.length > 2) {
+//   let removedGuest = guests.pop();
+//   console.log(`Sorry, ${removedGuest}, you're no longer invited to dinner.`);
+// }
+// for (let remainingGuest of guests) {
+//   console.log(`Dear ${remainingGuest}, you're still invited to dinner.`);
+// }
+// guests.splice(0, 2); // Remove the last two names from the list
+// console.log("Final guest list:", guests);
+/* =======>>>>>> Assignment 18 <<<<<======== */
+// let placesToVisit: string[] = [
+//   "Hunza Valley",
+//   "Skardu",
+//   "Naran and Kaghan Valley",
+//   "Swat Valley",
+//   "Murree"
+// ];
+// // Print the array in its original order
+// console.log("Original order:", placesToVisit);
+// // Print the array in alphabetical order without modifying the original list
+// console.log("Alphabetical order:", [...placesToVisit].sort());
+// // Print to show the array is still in its original order
+// console.log("Original order:", placesToVisit);
+// // Print the array in reverse alphabetical order without changing the original list
+// console.log("Reverse alphabetical order:", [...placesToVisit].sort().reverse());
+// // Print to show the array is still in its original order
+// console.log("Original order:", placesToVisit);
+// // Reverse the order of the list and print it
+// placesToVisit.reverse();
+// console.log("Reversed order:", placesToVisit);
+// // Reverse the order of the list again to get back to the original order
+// placesToVisit.reverse();
+// console.log("Back to original order:", placesToVisit);
+// // Sort the array in alphabetical order and print it
+// placesToVisit.sort();
+// console.log("Sorted in alphabetical order:", placesToVisit);
+// // Sort the array in reverse alphabetical order and print it
+// placesToVisit.sort().reverse();
+// console.log("Sorted in Reverse Alphabetical order ", placesToVisit);
