@@ -248,3 +248,53 @@
 // // Sort the array in reverse alphabetical order and print it
 // placesToVisit.sort().reverse();
 // console.log("Sorted in Reverse Alphabetical order ", placesToVisit);
+
+/* =======>>>>>> Assignment 19 <<<<<======== */
+/*Dinner Guests */
+
+// let guests: string[] = ["Ali", "Abdul", "Raheem", "Noor"];
+// console.log(`Number of people invited to dinner: ${guests.length}`);
+
+/* =======>>>>>> Assignment 20 <<<<<======== */
+/* Thinking of array containing list of something You Like */
+// let countries: string[] = ["USA", "Canada", "France", "Japan", "Brazil"];
+
+// countries.forEach((country) => {
+//   console.log(country);
+// });
+
+/* =======>>>>>> Assignment 21 <<<<<======== */
+
+// They think of something you could store in a TypeScript Object. Write a program that creates
+// Objects containing these items.
+
+// let items: object = {
+//   name: "Hamdan",
+//   age: 18,
+//   gender: "male",
+//   status: "single",
+// };
+// console.log(items);
+
+/* =======>>>>>> Assignment 21 <<<<<======== */
+
+// Create an array of countries
+// const countries: string[] = [
+//   "Pakistan",
+//   "India",
+//   "Turkey",
+//   "Australia",
+//   "Canada",
+// ];
+
+// console.log(countries[10]); // This will produce an error
+
+// // Correcting the error
+
+// if (countries.length > 10) {
+//   console.log(countries[10]); // This will not produce an error
+// } else {
+//   console.log("Index is out of bounds.");
+// }
+
+/* =======>>>>>> Assignment 21 <<<<<======== */
