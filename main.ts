@@ -276,7 +276,7 @@
 // };
 // console.log(items);
 
-/* =======>>>>>> Assignment 21 <<<<<======== */
+/* =======>>>>>> Assignment 22 <<<<<======== */
 
 // Create an array of countries
 // const countries: string[] = [
@@ -297,4 +297,160 @@
 //   console.log("Index is out of bounds.");
 // }
 
-/* =======>>>>>> Assignment 21 <<<<<======== */
+/* =======>>>>>> Assignment 23 <<<<<======== */
+/* Write a series of conditional tests */
+// let number = 10;
+
+// console.log("Is number == 10? I predict True.");
+// console.log(number == 10);
+
+// console.log("Is number === '10'? I predict False.");
+// console.log(number !== 10);
+
+// console.log("Is number > 5? I predict True.");
+// console.log(number > 5);
+
+// console.log("Is number < 0? I predict False.");
+// console.log(number < 0);
+
+// console.log("Is number >= 10? I predict True.");
+// console.log(number >= 10);
+
+// console.log("Is number <= 5? I predict False.");
+// console.log(number <= 5);
+
+// let name = "Alice";
+
+// console.log("Is name === 'Alice'? I predict True.");
+// console.log(name === "Alice");
+
+// console.log("Is name !== 'Bob'? I predict True.");
+// console.log(name !== "Bob");
+
+// console.log("Is name.includes('lic')? I predict True.");
+// console.log(name.includes("lic"));
+
+// console.log("Is name.startsWith('A')? I predict True.");
+// console.log(name.startsWith("A"));
+
+/* =======>>>>>> Assignment 24 <<<<<======== */
+
+// Tests for equality and inequality with strings
+// let fruit = 'apple';
+
+// console.log("Is fruit equal to 'apple'? I predict True.");
+// console.log(fruit === 'apple');
+
+// console.log("Is fruit not equal to 'banana'? I predict True.");
+// console.log(fruit !== 'banana');
+
+// // Tests using the lower case function
+// let city = 'New York';
+
+// console.log("Is city in lowercase equal to 'new york'? I predict True.");
+// console.log(city.toLowerCase() === 'new york');
+
+// // Numerical tests
+// let x = 5;
+// let y = 10;
+
+// console.log("Is x less than y? I predict True.");
+// console.log(x < y);
+
+// console.log("Is x greater than or equal to 3? I predict True.");
+// console.log(x >= 3);
+
+// // Tests using "and" and "or" operators
+// let isSunny = true;
+// let isWarm = true;
+
+// console.log("Is it sunny and warm? I predict True.");
+// console.log(isSunny && isWarm);
+
+// console.log("Is it sunny but not warm? I predict False.");
+// console.log(isSunny && !isWarm);
+
+// // Test whether an item is in an array
+// let colors = ['red', 'blue', 'green'];
+
+// console.log("Is 'blue' in the colors array? I predict True.");
+// console.log(colors.includes('blue'));
+
+// // Test whether an item is not in an array
+// console.log("Is 'yellow' not in the colors array? I predict True.");
+// console.log(!colors.includes('yellow'));
+
+/* =======>>>>>> Assignment 25 <<<<<======== */
+
+// let alien_color: string = "green";
+// /* Alien Colors #1 */
+
+// if (alien_color === "green") {
+//   console.log("Player just earned 5 points.\n");
+// }
+// // Version that failed
+// alien_color = "red";
+// if (alien_color === "green") {
+//   console.log("Player just earned 5 points.");
+// }
+
+/* =======>>>>>> Assignment 26 <<<<<======== */
+/* Alien Colors #2: */
+
+// let alien_color: string = "green";
+
+// if (alien_color === "green") {
+//   console.log("Player just earned 5 points.\n");
+// } else {
+//   console.log("Player Just earned 10 points");
+// }
+
+/* =======>>>>>> Assignment 27 <<<<<======== */
+
+// let alien_color: string = "green";
+
+// // 1st Version
+// if (alien_color === "green") {
+//   console.log("The player earned 5 points.");
+// } else if (alien_color === "yellow") {
+//   console.log("The player earned 10 points.");
+// } else if (alien_color === "red") {
+//   console.log("The player earned 15 points.");
+// }
+// // 2nd Version
+// alien_color = "red";
+// if (alien_color === "green") {
+//   console.log("The player earned 5 points.");
+// } else if (alien_color === "yellow") {
+//   console.log("The player earned 10 points.");
+// } else if (alien_color === "red") {
+//   console.log("The player earned 15 points.");
+// }
+// // 3rd Version
+// alien_color = "yellow";
+// if (alien_color === "green") {
+//   console.log("The player earned 5 points.");
+// } else if (alien_color === "yellow") {
+//   console.log("The player earned 10 points.");
+// } else if (alien_color === "red") {
+//   console.log("The player earned 15 points.");
+// }
+
+/* =======>>>>>> Assignment 28 <<<<<======== */
+/* Stages of Life: */
+
+let age: number = 10;
+
+if (age < 2) {
+  console.log("The person is a baby.");
+} else if (age >= 2 && age < 4) {
+  console.log("The person is a toddler.");
+} else if (age >= 4 && age < 13) {
+  console.log("The person is a kid.");
+} else if (age >= 13 && age < 20) {
+  console.log("The person is a teenager.");
+} else if (age >= 20 && age < 65) {
+  console.log("The person is an adult.");
+} else {
+  console.log("The person is an elder.");
+}
