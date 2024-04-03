@@ -1,4 +1,5 @@
 /* =======>>>>>> Assignment 1 <<<<<======== */
+export {};
 /* Install [Node.js](https://nodejs.org/en/),
 [TypeScript](https://www.typescriptlang.org/download) and
 [VS Code](https://code.visualstudio.com/) on your computer. */
@@ -415,3 +416,39 @@
 //     console.log(`${num}th`);
 //   }
 // }
+/* =======>>>>>> Assignment 34 <<<<<======== */
+/* Pizzas:  */
+// let favPizzas: string[] = ["Pepperoni", "Fageta", "ChickenTikka", "Italian"];
+// for (let pizza of favPizzas) {
+//   console.log(`I like ${pizza}`);
+// }
+// console.log("--".repeat(30));
+// console.log("I really like those pizzas");
+/* =======>>>>>> Assignment 35 <<<<<======== */
+/* Animals: */
+// let petAnimals: string[] = ["Cat", "Dog", "Parrot"];
+// for (let animal of petAnimals) {
+//   console.log(`A ${animal} would make a great Pet`);
+// }
+// console.log("-".repeat(30));
+// console.log(`The ${petAnimals[0]} would be a great Pet`);
+/* =======>>>>>> Assignment 36 <<<<<======== */
+/* T-Shirt: */
+// function make_shirt(){
+//     let size: string = "Large";
+//     let message: string = "I love JavaScript";
+//     console.log(`The size of the shirt is ${size} and the message is ${message}`);
+// }
+// make_shirt();
+/* =======>>>>>> Assignment 37 <<<<<======== */
+/* Large Shirts */
+// function make_shirt(size = 'large', message = 'I love TypeScript') {
+//     console.log(`Size: ${size}`); 
+//     console.log(`Message: ${message}`);
+//   }
+//   // Make a large shirt with default message
+//   make_shirt(); 
+//   // Make a medium shirt with default message  
+//   make_shirt('medium');
+//   // Make a shirt of any size with custom message
+//   make_shirt('small', 'TypeScript is fun!');
