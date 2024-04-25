@@ -443,12 +443,30 @@ export {};
 /* =======>>>>>> Assignment 37 <<<<<======== */
 /* Large Shirts */
 // function make_shirt(size = 'large', message = 'I love TypeScript') {
-//     console.log(`Size: ${size}`); 
+//     console.log(`Size: ${size}`);
 //     console.log(`Message: ${message}`);
 //   }
-//   // Make a large shirt with default message
-//   make_shirt(); 
-//   // Make a medium shirt with default message  
+// Make a large shirt with default message
+//   make_shirt();
+// Make a medium shirt with default message
 //   make_shirt('medium');
-//   // Make a shirt of any size with custom message
+// Make a shirt of any size with custom message
 //   make_shirt('small', 'TypeScript is fun!');
+/* =======>>>>>> Assignment 38 <<<<<======== */
+/* Cities */
+// function describe_city(city:string,country:string ="Pakistan"){
+//     console.log(`${city} is in ${country}`);
+// }
+// describe_city("Karachi");
+// describe_city("Islamabad", "Pakistan");
+// describe_city("Lahore", "Pakistan");
+/* =======>>>>>> Assignment 39 <<<<<======== */
+/* City Names: */
+// function city_country(city: string, country: string = "Pakistan"): string {
+//    return `${city}, ${country}`;
+// }
+// console.log(city_country("Karachi"));
+// console.log(city_country("Islamabad"));
+// console.log(city_country("Lahore"));
+/* =======>>>>>> Assignment 40 <<<<<======== */
+/* Album: */
