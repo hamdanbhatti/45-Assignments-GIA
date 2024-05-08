@@ -618,3 +618,82 @@
 /* =======>>>>>> Assignment 40 <<<<<======== */
 /* Album: */
 
+// function make_album(artist: string, title: string, track?: number) {
+//    let album: { artist: string; title: string; track?: number } = {
+//       artist: artist,
+//       title: title,
+//    };
+//    if (track !== undefined) {
+//       album.track = track;
+//    }
+//    return album;
+// }
+// let album1 = make_album("Atif Aslam", "JalPari");
+// let album2 = make_album("Ali Zafar", "Masty");
+// let album3 = make_album("Bohemia", "Thousand Thoughts", 10);
+
+// console.log(album1);
+// console.log(album2);
+// console.log(album3);
+
+/* =======>>>>>> Assignment 41 <<<<<======== */
+
+// Magicians:
+
+// let magicians: string[] = ["Dynamo", "Adele", "Beyonce", "Drake"];
+// function show_magicians(magicians: string[]) {
+//    for (let magician of magicians) {
+//       console.log(magician);
+//    }
+// }
+// show_magicians(magicians);
+
+/* =======>>>>>> Assignment 42 <<<<<======== */
+// Great Magicians:
+
+// let magicians: string[] = ["Dynamo", "Adele", "Beyonce", "Drake"];
+
+// function make_great(magicianArray: string[]) {
+//    for (let i = 0; i < magicianArray.length; i++) {
+//       magicians[i] = "The Great " + magicianArray[i];
+//    }
+//    return magicians;
+// }
+
+// function show_magicians(magicians: string[]) {
+//    for (let magician of magicians) {
+//       console.log(magician);
+//    }
+// }
+// make_great(magicians);
+// show_magicians(magicians);
+
+// /* =======>>>>>> Assignment 43 <<<<<======== */
+
+// let magicians: string[] = ["Dynamo", "Adele", "Beyonce", "Drake"];
+
+// function copyArray(arr: string[]) {
+//   return [...arr];
+// }
+
+// function make_great(magicianArray: string[]) {
+//   for (let i = 0; i < magicianArray.length; i++) {
+//     magicianArray[i] = "The Great " + magicianArray[i];
+//   }
+
+//   return magicians;
+// }
+
+// function show_magicians(magicians: string[]) {
+//   for (let magician of magicians) {
+//     console.log(magician);
+//   }
+// }
+// const copyMagiciansArray = copyArray(magicians);
+// make_great(copyMagiciansArray);
+
+// console.log("\n\tOriginal Magicians Array:\n");
+// show_magicians(magicians);
+
+// console.log("\tModified Copy Magicians Array:\n");
+// show_magicians(copyMagiciansArray);
