@@ -697,3 +697,4 @@
 
 // console.log("\tModified Copy Magicians Array:\n");
 // show_magicians(copyMagiciansArray);
+

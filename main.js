@@ -499,18 +499,18 @@
 // let magicians: string[] = ["Dynamo", "Adele", "Beyonce", "Drake"];
 // function make_great(magicianArray: string[]) {
 //    for (let i = 0; i < magicianArray.length; i++) {
-//     magicians[i]= "The Great " + magicianArray[i];
+//       magicians[i] = "The Great " + magicianArray[i];
 //    }
 //    return magicians;
-//  }
+// }
 // function show_magicians(magicians: string[]) {
-//   for (let magician of magicians) {
-//     console.log(magician);
-//   }
+//    for (let magician of magicians) {
+//       console.log(magician);
+//    }
 // }
 // make_great(magicians);
 // show_magicians(magicians);
-/* =======>>>>>> Assignment 43 <<<<<======== */
+// /* =======>>>>>> Assignment 43 <<<<<======== */
 // let magicians: string[] = ["Dynamo", "Adele", "Beyonce", "Drake"];
 // function copyArray(arr: string[]) {
 //   return [...arr];
@@ -532,6 +532,6 @@
 // show_magicians(magicians);
 // console.log("\tModified Copy Magicians Array:\n");
 // show_magicians(copyMagiciansArray);
-let abc = [1, 2, 3, 4];
-console.log(typeof abc);
+let array = [[["ali"]]];
+console.log(array[0][0][0][0]);
 export {};
