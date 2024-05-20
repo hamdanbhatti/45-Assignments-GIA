@@ -698,3 +698,44 @@
 // console.log("\tModified Copy Magicians Array:\n");
 // show_magicians(copyMagiciansArray);
 
+/* =======>>>>>> Assignment 44 <<<<<======== */
+
+// Sandwiches:
+
+// function makeSandwich(item:string[]) {
+//   console.log(`------------------------------------`);
+
+//     console.log("Making a sandwich with the following items:\n");
+//   item.forEach((item) => console.log(`=> ${item}`));
+//   console.log("\nFinished making the sandwich!\n");
+//   console.log(`------------------------------------`);
+// }
+// makeSandwich(["bread", "butter", "cheese"]);
+// makeSandwich(["bread", "ham", "bacon"]);
+// makeSandwich(["bread", "lettuce", "peanut butter", "bacon"]);
+
+/* =======>>>>>> Assignment 45 <<<<<======== */
+// Cars:
+
+
+// function carInfos(
+//    manufacturer: string,
+//    modelName: string,
+//    ...otherInfos: { [key: string]: any }[]
+// ): object {
+//    let carInfo = {
+//       manufacturer,
+//       modelName,
+//       ...Object.assign({}, ...otherInfos),
+//    };
+//    return carInfo;
+// }
+// let answer = carInfos(
+//    "Honda",
+//    "Accord",
+//    { color: "blue" },
+//    { features: ["Air Conditioning", "Cruise Control"] },
+// );
+// console.log(answer);
+
+// =============== Completed =================== //
